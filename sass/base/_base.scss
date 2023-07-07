@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+
+    /*
+    100% is 16px, the default font-size by browser.
+    We change it to 62.5% so that it is
+    10px, this way it is easier to use
+    rem units instead of px.
+    */
+}
+
+body {
+    box-sizing: border-box;
+}
